@@ -8,7 +8,9 @@ import Foundation
 
 /*:
  ### Plus
- +
+ 
+ \+
+ 
  > Match 1 or more times. Match as many times as possible.
    
  */
@@ -26,7 +28,7 @@ regex(title: "Plus", text: "b be bee beer beers", pattern: "b\\w+")
 */
 /*:
  ### Star
- *
+ \*
  > Match 0 or more times. Match as many times as possible.
    
  */
@@ -93,7 +95,7 @@ regex(title: "Lazy", text: "b be bee beer beers", pattern: "b\\w+?")
 */
 /*:
  ### Alternation
- |
+ \|
 > +? Match 1 or more times. Match as few times as possible.
 > *? Match 0 or more times. Match as few times as possible.
  */
@@ -106,3 +108,4 @@ regex(title: "Alternation", text: "bad bud bod bed bid", pattern: "b(a|e|i)d")
  {16, 3} bid
 ```
 */
+//: [Next](@next) - [Substitution](Substitution)

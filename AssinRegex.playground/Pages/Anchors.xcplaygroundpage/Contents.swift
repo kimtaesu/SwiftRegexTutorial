@@ -18,7 +18,7 @@ regex(title: "Beginning", text: "she sells seashells", pattern: "^\\w+")
 */
 /*:
  ### End
- ^
+ \$
  > Match at the end of a line. See anchorsMatchLines and the m character expression in Table 4.
    
  */
